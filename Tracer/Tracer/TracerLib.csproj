@@ -34,5 +34,27 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ConsoleTraceResultWriter.cs" />
+    <Compile Include="ExampleClass1.cs" />
+    <Compile Include="ExampleClass2.cs" />
+    <Compile Include="FileTraceResultWriter.cs" />
+    <Compile Include="ISerializer.cs" />
+    <Compile Include="ITracer.cs" />
+    <Compile Include="ITraceResultWriter.cs" />
+    <Compile Include="JSONSerializer.cs" />
+    <Compile Include="MethodResult.cs" />
+    <Compile Include="Programm.cs" />
+    <Compile Include="ThreadResult.cs" />
+    <Compile Include="Tracer.cs" />
+    <Compile Include="TraceResult.cs" />
+    <Compile Include="XMLSerializer.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

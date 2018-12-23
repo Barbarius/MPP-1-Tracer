@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27428.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tracer", "Tracer\Tracer.csproj", "{A44651A6-0B12-4FCA-AE9E-667901F34E25}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TracerLib", "Tracer\TracerLib.csproj", "{A44651A6-0B12-4FCA-AE9E-667901F34E25}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TracerUnitTests", "TracerUnitTests\TracerUnitTests.csproj", "{0A9C4C8A-6C44-4D08-8D20-0B67B287BC43}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{A44651A6-0B12-4FCA-AE9E-667901F34E25}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A44651A6-0B12-4FCA-AE9E-667901F34E25}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A44651A6-0B12-4FCA-AE9E-667901F34E25}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0A9C4C8A-6C44-4D08-8D20-0B67B287BC43}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A9C4C8A-6C44-4D08-8D20-0B67B287BC43}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A9C4C8A-6C44-4D08-8D20-0B67B287BC43}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A9C4C8A-6C44-4D08-8D20-0B67B287BC43}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
